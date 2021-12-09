@@ -1,0 +1,18 @@
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe.config
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.pdb
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.AssemblyReference.cache
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Properties.Resources.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.GenerateResource.cache
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.CoreCompileInputs.cache
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.exe
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.pdb
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Caixa.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.home.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Cadastra.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.lst_Produto.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Fnz.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Login.resources
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.dll
+C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.xml
