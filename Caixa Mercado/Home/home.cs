@@ -12,70 +12,63 @@ namespace Caixa_Mercado
 {
     public partial class home : Form
     {
+        Form formOpen;
+        string acessibility;
         
-        Form formaberto;
-
-        private void abre(Form frm)
+        private void OpenForm(Form formToOpen)
         {
-            //fecha(frm);
-            formaberto = frm;
-            frm.TopLevel = false;
-            Painel.Controls.Add(frm);
-            frm.BringToFront();
-            frm.Show();
-
-
+            formOpen = formToOpen;
+            formToOpen.TopLevel = false;
+            pnPrincipal.Controls.Add(formToOpen);
+            formToOpen.BringToFront();
+            formToOpen.Show();
         }
 
-        private void fecha(Form frm) 
+        private void Close(Form formToOpen) 
         {
-            if (frm != null)
-                frm.Close();
+            if (formToOpen != null)
+                formToOpen.Close();
         }
 
-        public home()
+        public home(string access)
         {
             InitializeComponent();
+            acessibility = access;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void BtnCheckoutClick(object sender, EventArgs e)
         {
-
+            OpenForm(new Checkout());
         }
 
-        private void btn_caixa_Click(object sender, EventArgs e)
+        private void BtnProductClick(object sender, EventArgs e)
         {
-            abre( new Caixa());
-          
+            OpenForm(new lst_product());           
         }
 
-        private void Calc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void RegisterClick(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("calc.exe");
+            try
+            {
+                if (acessibility == "Admin")
+                {
+                    OpenForm(new Login());
+                }
+                else
+                {
+                    MessageBox.Show("OPCAO DISPONIVEL APENAS PARA ADMINISTRADORES/ OPTION FOR ADMINISTRATORS ONLY");
+                }
+            }
+
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
         }
-
-        private void btn_Produto_Click(object sender, EventArgs e)
-        {
-
-            abre(new lst_Produto());
-                
-        }
-
-        private void Cadastra_Click(object sender, EventArgs e)
-        {
-            abre(new Cadastra());
-        }
-
-   
-
-        private void home_KeyUp(object sender, KeyEventArgs e)
+        private void HomeKeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.A) { MessageBox.Show("ok"); }
         }
 
-        private void Painel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

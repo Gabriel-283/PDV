@@ -16,3 +16,41 @@ C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Me
 C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.dll
 C:\Users\bielbernado\source\repos\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.xml
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe.config
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.pdb
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\BouncyCastle.Crypto.dll
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.dll
+F:\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.xml
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.AssemblyReference.cache
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Cadastra.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Caixa.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Fnz.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.home.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Login.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.lst_Produto.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Properties.Resources.resources
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.GenerateResource.cache
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.CoreCompileInputs.cache
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.exe
+F:\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.pdb
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Cadastra.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Checkout.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Fnz.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.home.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Login.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.lst_product.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa_Mercado.Properties.Resources.resources
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.GenerateResource.cache
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.exe
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.pdb
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe.config
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.exe
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\Caixa Mercado.pdb
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.dll
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\bin\Debug\itextsharp.xml
+C:\Users\Gabriel\Documents\Caixa Mercado\Caixa Mercado\obj\Debug\Caixa Mercado.csproj.CopyComplete

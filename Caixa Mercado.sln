@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caixa Mercado", "Caixa Mercado\Caixa Mercado.csproj", "{BC6A8948-2323-4FC5-892E-42AC941BBD5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaMercado", "Caixa Mercado\CaixaMercado.csproj", "{BC6A8948-2323-4FC5-892E-42AC941BBD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
