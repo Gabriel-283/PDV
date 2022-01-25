@@ -84,7 +84,7 @@ namespace Caixa_Mercado
             string Na = args[1];
             FileStream ArchivePdf = new FileStream(DocumentName, FileMode.Create, FileAccess.Write);
             Document DocumentReceipt = new Document(PageSize.A4);
-            PdfWriter write = PdfWriter.GetInstance(DocumentReceipt, ArchivePdf);
+            PdfWriter Writer = PdfWriter.GetInstance(DocumentReceipt, ArchivePdf);
 
             DocumentReceipt.Open();
             string Date = "";
