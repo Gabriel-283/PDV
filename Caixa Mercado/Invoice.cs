@@ -59,12 +59,12 @@ namespace Caixa_Mercado
             set { cpf = value; }
         }
 
-        public string[] order = new string[76];
+        public string[] Order = new string[76];
 
 
 
-        string day = DateTime.Now.ToString(" dd_MM -H;mm");
-        string hour = DateTime.Now.ToString("00;00;00");
+        string Day = DateTime.Now.ToString(" dd_MM -H;mm");
+        string Hour = DateTime.Now.ToString("00;00;00");
         public void AddOrderToList(string[] args)
         {
 
@@ -79,20 +79,20 @@ namespace Caixa_Mercado
         public void CreateReceipt(string[] args)
         {
             System.Windows.Forms.MessageBox.Show(this.PaymentForm);
-            string name = "NF_" + Convert.ToString(day) + ".pdf";
-            string documentName = @"C:\Minhas NF\" + name;
-            string na = args[1];
-            FileStream arquivo_pdf = new FileStream(documentName, FileMode.Create, FileAccess.Write);
-            Document documentReceipt = new Document(PageSize.A4);
-            PdfWriter write = PdfWriter.GetInstance(documentReceipt, arquivo_pdf);
+            string Name = "NF_" + Convert.ToString(Day) + ".pdf";
+            string DocumentName = @"C:\Minhas NF\" + Name;
+            string Na = args[1];
+            FileStream ArchivePdf = new FileStream(DocumentName, FileMode.Create, FileAccess.Write);
+            Document DocumentReceipt = new Document(PageSize.A4);
+            PdfWriter write = PdfWriter.GetInstance(DocumentReceipt, ArchivePdf);
 
-            documentReceipt.Open();
-            string data = "";
+            DocumentReceipt.Open();
+            string Date = "";
 
-            Paragraph header = new Paragraph(data, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
-            Paragraph clientParagraph = new Paragraph(data, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 10, (int)System.Drawing.FontStyle.Bold));
-            Paragraph divider = new Paragraph(data, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
-            Paragraph Final = new Paragraph(data, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
+            Paragraph header = new Paragraph(Date, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
+            Paragraph clientParagraph = new Paragraph(Date, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 10, (int)System.Drawing.FontStyle.Bold));
+            Paragraph divider = new Paragraph(Date, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
+            Paragraph Final = new Paragraph(Date, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Bold));
 
 
             header.Alignment = Element.ALIGN_CENTER;
@@ -108,7 +108,7 @@ namespace Caixa_Mercado
                 clientParagraph.Add("CPF: " + Cpf);
             }
 
-            Paragraph body = new Paragraph(data, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 6, (int)System.Drawing.FontStyle.Bold));
+            Paragraph body = new Paragraph(Date, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 6, (int)System.Drawing.FontStyle.Bold));
             for (int i = 0; i < 5; i++)
             {
                 body.Add(args[i] + "\n");
@@ -134,12 +134,12 @@ namespace Caixa_Mercado
 
 
             body.Add("");
-            documentReceipt.Add(header);
-            documentReceipt.Add(clientParagraph);
-            documentReceipt.Add(divider);
-            documentReceipt.Add(body);
-            documentReceipt.Add(Final);
-            documentReceipt.Close();
+            DocumentReceipt.Add(header);
+            DocumentReceipt.Add(clientParagraph);
+            DocumentReceipt.Add(divider);
+            DocumentReceipt.Add(body);
+            DocumentReceipt.Add(Final);
+            DocumentReceipt.Close();
 
             System.Windows.Forms.MessageBox.Show("Compra concluida com Sucesso");
         }
