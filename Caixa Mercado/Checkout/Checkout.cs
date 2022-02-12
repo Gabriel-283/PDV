@@ -60,18 +60,18 @@ namespace Caixa_Mercado
 
                     var sql = "SELECT * FROM tbl_products WHERE ID_product= '" + txtbBarcode.Text + "'";
 
-                    using (SqlCommand cmd = new SqlCommand(sql, conectionDataBase))
+                    using (SqlCommand comand = new SqlCommand(sql, conectionDataBase))
                     {
-                        using (SqlDataReader dr = cmd.ExecuteReader())
+                        using (SqlDataReader readerData = comand.ExecuteReader())
                         {
-                            if (dr.HasRows)
+                            if (readerData.HasRows)
                             {
 
-                                if (dr.Read())
+                                if (readerData.Read())
                                 {
                                     refernce += 1;
-                                    priceStorage[refernce] = Convert.ToDouble(dr["preco"]);
-                                    product[refernce] = Convert.ToString(dr["Nome_product"]);
+                                    priceStorage[refernce] = Convert.ToDouble(readerData["preco"]);
+                                    product[refernce] = Convert.ToString(readerData["Nome_product"]);
                                     if (quantity != 1)
                                     {
                                         priceStorage[refernce] *= quantity;
@@ -79,7 +79,7 @@ namespace Caixa_Mercado
                                     }
                                     total = priceStorage[refernce];
                                     double totalSum = priceStorage.Sum();
-                                    double totalPrice = Convert.ToDouble(dr["preco"]);
+                                    double totalPrice = Convert.ToDouble(readerData["preco"]);
                                     string SubTotal = totalSum.ToString();
                                     this.orderValue = Convert.ToDouble(SubTotal);
                                     lblPriceTotalproduct.Text = totalPrice.ToString("C");
@@ -91,7 +91,7 @@ namespace Caixa_Mercado
                                     orderStorage[refernce] = "       " + product[refernce] + "         " + lb_PrecoUni.Text + "         " + quantity + "               " + lblPriceTotalproduct.Text + "            " + txtbBarcode.Text;
 
                                     lst_products.Items.Add(refernce + orderStorage[refernce].PadRight(20));
-                                   finaliza = totalSum.ToString("F2");
+                                   finaly = totalSum.ToString("F2");
                                 }
                             }
                         }
